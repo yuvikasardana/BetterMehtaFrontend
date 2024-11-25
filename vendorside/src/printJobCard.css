@@ -1,0 +1,174 @@
+/* Center the Card on the Page */
+/* .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+    width: 50%;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card-header {
+  display: flex; /* Align items in a row 
+  justify-content: space-between; /* Space between Name and Roll No. 
+  padding: 10px 15px; /* Add padding for spacing 
+  background-color: #f8f9fa; /* Light gray background for header 
+  border-bottom: 1px solid #ddd; /* Divider line 
+  font-size: 16px;  Font size for header text */
+ /* font-weight: bold;  Bold text 
+}
+
+/* Name Section 
+/* .card-title {
+  margin: 0;  Remove margin 
+  color: #333;  Darker color for text 
+}*/
+
+/* Roll No. Section 
+.card-roll {
+  margin: 0; /* Remove margin 
+  color: #333;  Darker color for text 
+}
+
+  
+  /* Layout for Content 
+  .content {
+    display: flex;
+    width: 100%;
+  }
+  
+   Document Preview Section 
+  .document-preview {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px dashed #bbb;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #6c757d;
+    margin-right: 20px;
+  }
+  
+  /* Text Details Section 
+  .details-container {
+    font-size: 14px; /* Smaller text size 
+    line-height: 1.2; /* Tighten spacing between lines 
+    color: #333; /* Keep text legible 
+    padding: 5px; /* Reduce padding 
+  }
+  
+  .details-container p {
+    margin: 4px 0;  Reduce spacing between paragraphs 
+  }
+  Buttons Section 
+  
+    
+ /* Card Header */
+.card-header {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px 10px; 
+    font-size: 14px; 
+    font-weight: bold; 
+    border-bottom: 1px solid #ddd; /* Separator line between header and body */
+  }
+  
+  /* Align Text in Header */
+  .card-title, .card-roll {
+    margin: 0; /* Remove any default margins */
+    color: #333; /* Ensure readability */
+  }
+  
+  /* Vendor Card Styling */
+  .vendor-card {
+    width: 450px; /* Adjust card width */
+    margin: 20px auto; /* Center card on the screen */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Clean white background */
+  }
+  
+  /* Body Sections */
+  .content {
+    display: flex;
+    justify-content: left;
+    align-items: center; /* Align preview and details at the top */
+    gap: 15px; /* Space between sections */
+    padding: 15px;
+  }
+  
+  /* Preview Section */
+  .document-preview {
+    width: 80px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px dashed #bbb;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+    
+    color: #6c757d;
+    margin-right: 20px;
+  }
+  
+  /* Details Section */
+  .details-container {
+    font-size: 14px; 
+    line-height: 1.2; 
+    color: #333; 
+    padding: 5px; 
+  }
+  
+  .details-container p {
+    margin: 4px 0;  
+  }
+  
+  /* Button Section */
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  
+  .cancel-button,
+  .print-button {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .cancel-button {
+    background-color: #f8d7da;
+    color: #d9534f;
+  }
+  
+  .cancel-button:hover {
+    background-color: #f5c6cb;
+  }
+  
+  .print-button {
+    background-color: #d4edda;
+    color: #28a745;
+    font-size: 16px;
+    padding: 15px 30px;   
+  }
+  
+  .print-button:hover {
+    background-color: #c3e6cb;
+  }
